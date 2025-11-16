@@ -13,6 +13,7 @@ body {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    padding: 20px 70px;
     
     
 }
@@ -57,4 +58,8 @@ body {
     border-radius: 10px ;
     
 }
+.parent:hover {
+    background-color: rgb(175, 177, 179);
+    transform: scale(1.1);
 
+}
