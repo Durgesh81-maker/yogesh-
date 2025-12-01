@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(13, 12, 12);
+
+}
+@mixin flex-padding($gap:0){
+    display:flex;
+    flex-direction: column;
+    gap:$gap;
+    padding: 3rem 4rem;
+}
+
+    
+section.view1{
+    
+     @include flex-padding(20px);
+    
+    .top{
+        width: 100%;
+        @include flex-padding(40rem);
+       
+        
+    img{
+        width: 100%;
+        border-radius: 5rem;
+
+    }
+    
+}
+ .bottom{`
+    width: 100%;
+     background-color: rgb(24, 22, 22);
+     @include flex-padding(10rem);
+     font-size: 5rem;
+
+
+     h3{
+        color: white;
+        line-height: 100px;
+        
+     }
+   
+    
+    h1{
+        color: rgb(230, 221, 221);
+        line-height:150px;
+
+    }
+    p{
+        
+        color: rgb(146, 142, 142);
+        line-height:100px ;
+    }
+ }
+}
+section.view2{
+    .details{
+
+    }
+
+    
+
+}
+@media screen {
+    section.view1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
