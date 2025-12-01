@@ -33,7 +33,7 @@ section.view1{
     }
     
 }
- .bottom{`
+ .bottom{
     width: 100%;
      background-color: rgb(24, 22, 22);
      @include flex-padding(10rem);
@@ -60,7 +60,7 @@ section.view1{
  }
 }
 section.view2{
-    .details{
+        .details{
 
     }
 
