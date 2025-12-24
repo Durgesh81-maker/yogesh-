@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    background-size: cover;
+    flex-direction: column;
+    background-image: url(https://imgs.search.brave.com/QSI13zYRSfZk87kPRZZjWiInDhsJdWsjhClAhw843OE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI4/MjQ1ODQxNC9waG90/by9udW1iZXJzLWJh/Y2tncm91bmQtb24t/YS1saWdodC1iZy0z/ZC1yZW5kZXJpbmcu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PU1RSGtyWDRfNmhU/cGliaFEwU195QVRu/YVJEeXRiMlhibjds/TGs4YTZCVUE9);
+    
+}
+
+    h1{
+        font-size: 10rem;
+
+    }
+    
+
+ 
+#dec{padding:0.4rem 0.6rem;
+    height: 40px;
+    border-radius: 20%;
+    border: 1.5px solid black;
+    background-color: transparent;
+    color: black;
+    
+}
+#inc{
+    padding:0.4rem 0.6rem;
+    height: 40px; 
+     border-radius: 20%;
+     border: 1.5px solid black;
+     background-color: transparent;
+    color: black;
+    
+    
+    
+    
+
+}
+#inc:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+#dec:hover{
+    background-color: rgb(156, 4, 4);
+    color: white;
+}
