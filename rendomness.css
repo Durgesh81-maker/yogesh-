@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(https://imgs.search.brave.com/clnB0yQoXXOtwhoIKvomBWPdZ5_tn38wac4_FeG2DJk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE3MDE0NjI3/Nzc4ODYtYTcyOTYy/Y2UyNTRmP2ZtPWpw/ZyZxPTYwJnc9MzAw/MCZpeGxpYj1yYi00/LjEuMCZpeGlkPU0z/d3hNakEzZkRCOE1I/eHpaV0Z5WTJoOE5Y/eDhZMjlzYjNJbE1q/QmphR0Z1WjJsdVoz/eGxibnd3Zkh3d2ZI/eDhNQT09);
+    background-size: cover;
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20,60,90);
+    border-radius: 20px;
+    border: 2px solid rgb(211, 186, 186);
+}
+button{
+    padding: 10px 20px;
+    background-color:  rgb(94, 4, 4);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(230, 210, 210);
+    cursor: pointer;
+    
+    
+}
+button:active{
+    background-color:rgb(5, 33, 116);
+    scale: 0.95;
+    
+}
