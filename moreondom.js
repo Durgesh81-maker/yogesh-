@@ -5,7 +5,7 @@ var main = document.querySelector('main')
  var arr = ['durgesh','yogesh','ganesh','hariom','patel']
  var x = Math.random()*100
  var y = Math.random()*100
-  var r = Math.random()*270
+  var r = Math.random()*360
  
 
  var c1 = Math.random()*256
@@ -20,7 +20,7 @@ div.style.top = y +'%'
 div.style.rotate = r +'deg'
 div.style.color = `rgb(${c1},${c2},${c3})`
 
-div.style.fontSize = '3rem'
+div.style.fontSize = '1.5rem'
 main.appendChild(div)
 
 })
