@@ -12,8 +12,9 @@ main {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
+
     
 
 }
@@ -26,6 +27,7 @@ button{
     background-color: blue;
     position: relative;
     z-index: 9;
+    margin-bottom: 5rem;
 } 
 button:active{
     background-color: royalblue;
