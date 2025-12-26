@@ -24,13 +24,13 @@ button{
     font-weight: 600;
     font-size: 1rem;
     border-radius: 10px;
-    background-color: blue;
+    background-color: rgb(157, 14, 14);
     position: relative;
     z-index: 9;
     margin-bottom: 5rem;
 } 
 button:active{
-    background-color: royalblue;
+    background-color: rgb(225, 145, 65);
     scale: 0.95;
     
 }
