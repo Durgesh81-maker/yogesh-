@@ -24,14 +24,14 @@ button{
     font-weight: 600;
     font-size: 1rem;
     border-radius: 10px;
-    background-color: rgb(157, 14, 14);
+    background-color: rgb(141, 44, 44);
     position: relative;
     z-index: 9;
     margin-bottom: 5rem;
 } 
 button:active{
     background-color: rgb(225, 145, 65);
-    scale: 0.95;
+    scale: 0.96;
     
 }
 button:hover{

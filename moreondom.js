@@ -6,7 +6,7 @@ var main = document.querySelector('main')
  
  var x = Math.random()*100
  var y = Math.random()*100
-  var r = Math.random()*45
+  var r = Math.random()*46
  
 
  var c1 = Math.random()*256
@@ -20,8 +20,6 @@ div.style.left = x +'%'
 div.style.top = y +'%'
 div.style.rotate = r +'deg'
 div.style.color = `rgb(${c1},${c2},${c3})`
-
-
 div.style.fontSize = '1.2rem'
 main.appendChild(div)
 
