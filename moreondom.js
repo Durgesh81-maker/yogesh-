@@ -20,7 +20,7 @@ div.style.top = y +'%'
 div.style.rotate = r +'deg'
 div.style.color = `rgb(${c1},${c2},${c3})`
 
-div.style.fontSize = '10rem'
+div.style.fontSize = '3rem'
 main.appendChild(div)
 
 })
