@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;}
+ main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.card{
+  height:300px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+
+
+}
+.card img {
+    object-fit: cover;
+   
+    width:  350px;
+    justify-content: center;
+    padding: 20px;
+    border-radius:30px ;
+}
+h2{
+    text-align: center;
+
+  
+}
+.card i{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: url(https://imgs.search.brave.com/3XAFy3BPSXltIwm6HsqdizxH4ZU5agxDbNRxCl42GDs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDQv/NjM5LzM3Ni9zbWFs/bC9jb2xvcmZ1bC1o/ZWFydC1pY29uLXJv/bWFuY2UtbG92ZS1p/bGx1c3RyYXRpb24t/dmVjdG9yLmpwZw);
+    align-items: center;
+    font-size: 50px;
+    
+    opacity: 0;
+    transform:translate(-50%,-50%) scale(0) rotate(-60deg) ;    
+    color: rgb(189, 17, 163);
+    background-clip: text;
+    
+    transition: all cubic-bezier(.65,.1,.77,1.44) 0.3s ;}

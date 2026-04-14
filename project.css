@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html .card,
+body .card {
+  height: 420px;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+html .card #storyian::-webkit-scrollbar,
+body .card #storyian::-webkit-scrollbar {
+  display: none;
+}
+html .card #storyian,
+body .card #storyian {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(249, 253, 253);
+  border-bottom: 1px solid #dadada;
+  padding: 15px;
+  border-radius: 10px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+html .card #storyian .story,
+body .card #storyian .story {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  border: 3px solid rgb(172, 11, 11);
+  background-position: center;
+  overflow: hidden;
+  display: inline-block;
+}
+html .card #storyian .story img,
+body .card #storyian .story img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=project.css.map */

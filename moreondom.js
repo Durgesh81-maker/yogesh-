@@ -2,7 +2,7 @@ var btn = document.querySelector('button')
 var main = document.querySelector('main')
           btn.addEventListener('click',function(){
  var div = document.createElement('h1')
- var arr = ['I love you Aarti ji😘','I love you Aarti❤️','I love you😍','I love you aayu💕']
+ var arr = ['Durgesh❤️','kamlesh❤️','sunita😍','yogesh💕']
  
  var x = Math.random()*100
  var y = Math.random()*100

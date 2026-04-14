@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+html main,
+body main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom, rgb(47, 45, 45), rgb(70, 69, 69), black);
+}
+html main section,
+body main section {
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  background-color: rgb(30, 27, 27);
+  border-radius: 10px;
+}
+html main section .all-reels::-webkit-scrollbar,
+body main section .all-reels::-webkit-scrollbar {
+  display: none;
+}
+html main section .all-reels,
+body main section .all-reels {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+html main section .all-reels .reel,
+body main section .all-reels .reel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgb(236, 234, 233);
+  border-radius: 10px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+html main section .all-reels .reel video,
+body main section .all-reels .reel video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+html main section .all-reels .reel .bottom,
+body main section .all-reels .reel .bottom {
+  padding: 30px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.818));
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+html main section .all-reels .reel .bottom p,
+body main section .all-reels .reel .bottom p {
+  color: white;
+  font-weight: 500;
+}
+html main section .all-reels .reel .bottom .user,
+body main section .all-reels .reel .bottom .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+html main section .all-reels .reel .bottom .user h3,
+body main section .all-reels .reel .bottom .user h3 {
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+}
+html main section .all-reels .reel .bottom button,
+body main section .all-reels .reel .bottom button {
+  padding: 2px 9px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+}
+html main section .all-reels .reel .bottom .pic2,
+body main section .all-reels .reel .bottom .pic2 {
+  height: 25px;
+  width: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+html main section .all-reels .right,
+body main section .all-reels .right {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: rgb(244, 241, 241);
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-60%);
+}
+html main section .all-reels .right .like,
+body main section .all-reels .right .like {
+  pointer-events: none;
+}
+html main section .all-reels .right h4,
+body main section .all-reels .right h4 {
+  font-size: 30px;
+  font-weight: 100;
+}
+html main section .all-reels .right .love,
+body main section .all-reels .right .love {
+  color: red;
+}
+html main section .all-reels .right .love h6,
+body main section .all-reels .right .love h6 {
+  font-size: 15px;
+  text-align: end;
+}
+html main section .all-reels .right .love > div,
+body main section .all-reels .right .love > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}/*# sourceMappingURL=domagain.css.map */

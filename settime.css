@@ -10,6 +10,33 @@ body {
 }
 main{
     height: 100%;
-    
-    background-color: black;
+    width: 100%;
+    background-image: url(https://imgs.search.brave.com/80MRP4b7sShHY-2E53FspzlLxmUzWtDL1OLfjedc964/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjYv/NjExLzM3NS9zbWFs/bC9yZWQtaGVhcnRz/LWZsb2F0aW5nLW9u/LWEtZ3JhZGllbnQt/YmFja2dyb3VuZC1y/ZXByZXNlbnRpbmct/bG92ZS1hbmQtcm9t/YW5jZS1hbmQtdmFs/ZW50aW5lLXMtZGF5/LXBob3RvLmpwZw);
+   display: flex;
+   justify-content: center;
+   align-items:end ; 
+   padding-bottom: 2rem;
+   gap: 10px;
+   background-size: cover;
+   background-position: center;
+
+   
+}
+
+button{
+    background-color: rgb(145, 65, 65);
+    border-radius: 0.2rem;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    z-index: 9;
+
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(167, 98, 13);
+    scale:0.95;
 }

@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+}
+@property --rotate{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: true;
+    
+}
+@keyframes border {
+    from{
+        --rotate:0deg
+    }
+    to{
+        --rotate:360deg
+    }
+}
+
+.box{
+   display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 300px;
+   max-width: 200px;
+    flex-direction: column;
+    text-align: center;  
+    overflow: hidden;
+    
+    padding-inline: 10px;
+    padding-bottom: 10px;
+  border-radius: 15px;
+cursor: pointer;
+     box-shadow: 0 0 0px rgb(255, 0, 123);
+    background: 
+        linear-gradient(black) padding-box,
+        conic-gradient(from var(--rotate), black, rgb(255, 0, 123), black) border-box;
+        border: 0px solid rgba(255, 255, 255, 0);
+        transition: all 0.5s linear;
+       animation: border 3s infinite ;
+       animation-timing-function: linear;
+       animation-play-state: paused;
+       color:  rgb(255, 255, 255);
+       text-shadow: 0px 0px 0px  rgb(255, 0, 123); ;
+
+        
+    }
+
+.box:hover{
+     cursor: pointer;
+     box-shadow: 0 0 60px rgb(255, 0, 123);
+     background: 
+        linear-gradient(black) padding-box,
+        conic-gradient(from var(--rotate), black, rgb(255, 0, 123), black) border-box;
+        border: 2px solid rgba(255, 255, 255, 0);
+        text-shadow: 0px 0px 10px rgb(255, 0, 123) ;
+       animation: border 3s infinite ;
+       animation-timing-function: linear;
+       animation-play-state: running;
+       color:  rgb(255, 0, 123);
+
+        
+}
+img{
+    object-fit: cover;
+    width: 160px;
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    padding: 10px 20px ;
+    font-size: 20px;
+    height: 100px;
+    
+    
+}
+p{
+    
+    height: 190px;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+

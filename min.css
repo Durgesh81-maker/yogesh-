@@ -1,0 +1,478 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+     
+
+}
+main {
+      height: 100%;
+    width: 100%;
+ background-image: url(./min.webp);
+    background-size: cover;
+font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    
+
+}
+
+header {
+     height: 60px;
+    width: 100%;
+    
+}
+.logo{
+     background: rgba(30, 30, 30, 0); 
+    backdrop-filter: blur(10px); 
+    
+    top: 10px;
+    position: absolute;
+    left: 150px;
+    position: fixed;
+}
+.nav{
+    position: relative;
+    height: 40px;
+     gap: 30px;
+    display: flex;
+    padding-top: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 13px;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(30, 30, 30, 0); 
+    backdrop-filter: blur(10px); 
+    position: fixed;
+      color: rgb(251, 248, 248);
+
+}
+
+
+.side {
+   
+    display: flex;
+    align-items: center;
+     gap: 10px;
+     position: absolute;   
+    right: 14%;
+    position: fixed;
+
+}
+
+.side button {
+    height: 33px;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(249, 247, 247);
+    color: black;
+    border: none;
+    border-radius:15px;  
+}
+.center{
+height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    justify-content: flex-start;
+     color: white;
+     text-align: center;
+    
+}
+.center h1{
+    height: 60px;
+    width: 50%;
+    font-size: 55px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;;
+    text-align: center;
+}  
+.center p{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    font-weight: 100px;
+    padding: 20px;
+    
+    
+} 
+.input{
+    height: 24%;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 20px;
+    position: relative;
+    width: 18%;
+    margin-bottom: 50px;
+    
+    
+}
+.center input{
+    
+    width: 90%;
+    border: none;
+    color: white;
+    outline: none;
+    gap: 30px;
+    padding: 10px;
+
+    background-color: transparent;
+    
+
+}
+.center button{
+     
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    border: none;
+    right: 0;
+   background-color:rgb(244, 237, 237);
+   border-radius: 40px;
+   margin:5px;
+   
+}
+.img1{
+    width: 100%;
+   height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+     gap: 40px;
+    
+    
+
+}
+.img1 img{
+   width: 80%;
+   height: 101%;
+    object-fit: cover;
+    background-position: top;
+}
+.img2{
+    width: 100%;
+   height: 100%;
+   object-fit: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+     gap: 20px;
+     padding-top:240px;
+}
+
+section {
+    height: 200px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+     flex-direction: column;
+}
+section .head{
+        height: 100%;
+        
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+ .head h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;;
+}
+ .head p{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+
+}
+.section2{
+     height:400px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+      gap: 50px;
+}
+.card{
+    
+     height: 100px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+      gap: 20px;
+     
+    
+
+}
+.card .box1{
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-direction: column;
+    height: 450px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.276);
+    border-radius: 20px;
+     border: 0.01rem solid rgb(42, 39, 39);
+
+}
+
+.box1 h3{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;;
+    color: rgb(28, 203, 127);
+    padding: 20px;
+}
+.box1 h1{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;;
+    color: white;
+    padding: 10px;
+   
+}
+.box1 p{
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;;
+    color: white;
+    padding: 10px;
+    ;
+}
+.boxb{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position :relative;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.p1{
+    height: 120px;
+    width: 55%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 1px solid rgba(31, 32, 32, 0.674);
+    display: flex;
+    justify-content: flex-end; 
+    gap: 80px;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+
+}
+.pa{
+    height: 15px;
+    width: 50%;
+    margin:6px;
+    background-color: rgba(41, 43, 42, 0.621);
+    border-radius: 15px;
+   
+    
+}
+    .p1 svg{
+    height: 15px;
+    width: 15px;
+    color: rgb(6, 205, 152);
+    margin: 6px;
+   
+}
+.p2{
+    height: 120px;
+    width: 60%;
+    background-color: rgb(16, 197, 143);
+    border-radius: 15px;
+     top: 50px;
+    border: 1px solid rgba(31, 32, 32, 0.674);
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+
+}
+.p2a{
+    height: 15px;
+    width: 15px;
+    margin:5px;
+    background-color: rgba(82, 88, 85, 0.363);
+    border-radius: 5px;
+
+}
+.p2b{
+    height: 15px;
+    width: 30%;
+    margin:5px;
+    background-color:  rgba(82, 88, 85, 0.363);
+    border-radius: 5px;
+
+}   
+.p2 svg{
+    height: 15px;
+    width: 15px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    position: absolute;
+    right: 0;
+
+}
+.p3{
+    height: 100px;
+    width: 76%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    bottom: 76px;
+    border: 1px solid rgba(29, 32, 32, 0.674);
+     position : absolute;
+    position: relative;
+    
+}
+.p3a{
+    height: 15px;
+    width: 50%;
+    margin:5px;
+    background-color: rgba(41, 43, 42, 0.621);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.p3 svg{
+    height: 20px;
+    position: absolute;
+    right:4px;
+    top: 6px;
+    width: 20px;
+    padding: 3px;
+    color: rgb(51, 186, 155);
+
+
+}
+.p3b{
+
+    height: 35px;
+    width: 93%;
+    background-color: rgba(41, 43, 42, 0.621);
+    border-radius: 5px;
+    margin-top: 2px;
+    position: absolute;
+    top:30%;
+     left:8px;
+}
+.card .box2{
+    display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    height: 450px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.498);
+    border-radius: 20px;
+    
+      border: 1px solid rgb(42, 39, 39);
+}
+.box2 h3{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;;
+    color: rgb(6, 205, 152);
+    padding: 15px;
+}
+.box2 h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;;
+    color: white;
+    padding: 10px;
+}
+.box2 p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;;
+    color: white;
+    padding: 10px;
+}
+.right{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sign1{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color:  rgb(16, 197, 143);
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    height: 1px;
+    width: 50px;
+    background-color: rgba(41, 198, 148, 0.555);
+      display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sign2{
+         height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: rgb(16, 197, 143);
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign3{
+     height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: rgb(16, 197, 143);
+      display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.right svg{
+    height: 30px;
+    width: 30px;
+
+}
+    .sign4{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: rgb(16, 197, 143);
+}
+    .sign5{ 
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color:  rgb(16, 197, 143);
+}

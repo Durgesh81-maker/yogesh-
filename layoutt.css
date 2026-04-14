@@ -60,7 +60,11 @@ font-weight: 300;
     color: white;
     border-radius: 50px;
     padding: 15px 24px;
-    border: none;
+    border: 2px solid royalblue;
     font-size: 18PX;
 
+}
+#links button:hover{
+    background-color: transparent;
+    scale: 0.5px;
 }
